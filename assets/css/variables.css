@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
-  --bg-dorado-1: #f2d8a7;
-  --bg-dorado-2: #d9af63;
-  --bg-dorado-3: #bf8c4e;
-  --bg-dorado-4: #bf793b;
-  --bg-dorado-5: #84643f;
+  --bg-dorado-1: #528dd9;
+  --bg-dorado-2: #d6163c;
+  --bg-dorado-3: #132133;
+  --bg-dorado-4: #184059;
+  --bg-dorado-5: #223a59;
   --txt-body: #242424;
   --white: #ffffff;
   --gray: #989898;
@@ -18,21 +18,27 @@
   --bg-footer: #242424;
 
   --bg-gradient: linear-gradient(
-    131deg,
-    #d9af63 -3.63%,
-    #bf8c4e 55.5%,
-    #bf793b 107.94%
+    40deg,
+    #90011a,
+    /* Dorado oscuro */ #d2042d,
+    /* Bronce */ #d2042d,
+    /* Oro medio */ #e50633,
+    /* Oro claro */ #e50633,
+    /* Brillo dorado */ #d6163c,
+    /* Oro claro */ #d2042d,
+    /* Oro medio */ #d2042d,
+    /* Bronce */ #600112 /* Dorado oscuro */
   );
 
   --font-great-vibes: "Great Vibes", cursive;
   --font-PT-serif: "PT Serif", serif;
 
   --img-photo-home: url(../img/Photo-home.webp);
-  --img-F1: url(../img/F1.webp);
-  --img-F2: url(../img/F2.webp);
-  --img-F3: url(../img/F3.webp);
-  --img-F4: url(../img/F4.webp);
-  --img-F5: url(../img/F5.webp);
+  --img-F1: url(../img/f1.jpeg);
+  --img-F2: url(../img/f2.jpeg);
+  --img-F3: url(../img/f3.jpeg);
+  --img-F4: url(../img/Portada.jpeg);
+  --img-F5: url(../img/f3.jpeg);
 
   --img-overlay-stain-1: url(../img/stain-1.svg);
   --img-overlay-stain-2: url(../img/stain-2.svg);
